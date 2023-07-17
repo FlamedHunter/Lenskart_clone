@@ -1,0 +1,20 @@
+.homecontainer{
+    background-color: rgba(231, 231, 227, 1);
+}
+
+.homeheading{
+    text-align: center;
+}
+
+.homedoit{
+    font-size: 15vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.homeheadingrigt{
+    font-size: 15vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(74, 105, 226, 1);
+}
