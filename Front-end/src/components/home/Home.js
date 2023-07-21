@@ -3,6 +3,7 @@ import './home.css'
 import NewDrops from './NewDrops'
 import Poy from './Poy'
 import Reviews from './Reviews'
+import Footer from '../../assets/footer/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
             <NewDrops/>
             <Reviews/>
         </div>
+        <Footer/>
     </>
   )
 }

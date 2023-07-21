@@ -30,6 +30,10 @@
     letter-spacing: 0.02rem;
     margin-bottom: 20px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.reviewsbutton:hover{
+    transform: scale(1.1);
 }
 
 .reviewscontainer{
