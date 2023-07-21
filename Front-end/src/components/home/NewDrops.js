@@ -29,7 +29,7 @@ const NewDrops = () => {
     const displayproducts = newdrops.map(product=>{
         return(
             <>
-                <div>
+                <div className='newdropsproductmainbox'>
                     <div className='newdorpsproductsbox'>
                         <div>
                             <img src={product.img} alt="" className='newdropsproductimage' />
@@ -47,6 +47,7 @@ const NewDrops = () => {
             </>
         )
     })
+    
     
   return (
     <> 

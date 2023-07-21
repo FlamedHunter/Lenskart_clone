@@ -96,6 +96,10 @@
     justify-content: space-evenly;
 }
 
+.newdropsproductscontainer:hover > .newdropsproductmainbox:not(:hover){
+    opacity: 0.2;
+}
+
 
 .newdropsbutton{
     width: 200px;
