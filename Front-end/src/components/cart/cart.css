@@ -1,0 +1,28 @@
+.cartsaving {
+    padding-inline: 2rem;
+    margin: 1rem;
+    font: 'Open Sans', sans-serif;
+}
+.bag{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 1fr;
+}
+.itemimage {
+    aspect-ratio: 1/1;
+    height: 100%;
+    width: 24%;
+    border-radius: 20px;
+    object-fit: contain;
+}
+.item{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.content{
+    grid-template-rows: auto 4fr;
+}
+.ordercontentgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
