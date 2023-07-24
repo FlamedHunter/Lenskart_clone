@@ -7,13 +7,15 @@ import ListingPage from './components/listing page/ListingPage';
 import Login from './components/login_signup page/Login';
 import Register from './components/login_signup page/Register';
 import ProductPage from './components/product page/ProductPage';
-
+import Cart from './components/cart/Cart';
 function App() {
   return (
     <>
-        <Navbar/>
+        {/* <Navbar/>
         <Checkout/>
-        <Footer/>
+        <Footer/> */}
+        {/* <Home/> */}
+        <Cart/>
     </>
   );
 }
