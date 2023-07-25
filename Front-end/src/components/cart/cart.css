@@ -13,6 +13,7 @@
     grid-gap: 1rem;
     grid-template-columns: 2fr 1fr;
     align-items: center;
+    justify-content: center;
 }
 
 .itemimage {
@@ -43,8 +44,9 @@
 .ordercontentgrid {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 1rem;
-    align-items: end;
+    /* padding: 1rem; */
+    /* align-items: center; */
+    justify-content: space-around;
     /* align-items: stretch; */
 }
 
@@ -66,3 +68,16 @@
     color: #4A69E2;
     align-self: flex-start;
 }
+.order{
+    display: grid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-self:stretch;
+    text-align: center;
+}
+@media only screen and (max-width: 660px) {
+    .bag {
+      /* background-color: black; */
+      grid-template-columns: auto;
+    }
+  }
