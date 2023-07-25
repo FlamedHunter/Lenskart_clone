@@ -39,6 +39,7 @@ export default class Cart extends Component {
                 <p>Tax</p>
                 <p>$13.00</p>
             </div>
+            <button className='checkoutbutton' type="button">Checkout</button>
         </div>
     </div>
     <NewDrops />
